@@ -2,12 +2,12 @@
 #include <Wire.h>
 #include <PubSubClient.h>
 
-#define wifi_ssid "AFDD"
-#define wifi_password "afddChromino"
+#define wifi_ssid "Wifi"
+#define wifi_password "Wifi passwd"
 
-#define mqtt_server "192.168.2.10"
-#define mqtt_user "admin"
-#define mqtt_password "hassio49"
+#define mqtt_server "ServerIP"
+#define mqtt_user "User"
+#define mqtt_password "passwd"
 
 #define alert_topic "bouton/alert"
 
